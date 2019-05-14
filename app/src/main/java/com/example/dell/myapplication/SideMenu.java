@@ -40,7 +40,7 @@ public class SideMenu extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-        getSupportFragmentManager().beginTransaction().add(R.id.container1, new TabFragment()).addToBackStack(null).commit();
+        getSupportFragmentManager().beginTransaction().add(R.id.container1, new TabFragment()).commit();
 
     }
 

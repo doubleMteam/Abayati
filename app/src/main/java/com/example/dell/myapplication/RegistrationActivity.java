@@ -11,6 +11,6 @@ public class RegistrationActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registration);
         Toast.makeText(this, "hi n", Toast.LENGTH_SHORT).show();
-        Toast.makeText(this, "hi n", Toast.LENGTH_SHORT).show();
+       // Toast.makeText(this, "hi n ", Toast.LENGTH_SHORT).show();
     }
 }

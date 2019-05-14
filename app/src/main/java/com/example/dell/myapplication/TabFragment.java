@@ -119,10 +119,11 @@ public class TabFragment extends Fragment {
             // Return a PlaceholderFragment (defined as a static inner class below).
             switch (position) {
                 case 0:
-                    return new ShopOwnerAddProductsFragment();
 
-                case 1:
                     return new BlankFragment();
+                case 1:
+
+                return new ShopOwnerAddProductsFragment();
                 case 2:
                     return new BlankFragment();
             }
